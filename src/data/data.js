@@ -2,7 +2,7 @@
 
 const data = {
     name: "Denis Rosales Becerra",
-    bio: "Undergraduate Architectural Student at University of Calgary passionate about building tools to make homes more affordable.",
+    bio: "Bachelor of Design in City Innovation - Portfolio",
     contact: {
         email: "denis2005jr@gmail.com",
         phone: "+5876643370",
