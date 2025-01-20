@@ -16,6 +16,14 @@ const trees = [
   "./treeDrawings/tree4.jpg",
 ];
 
+const cadavre = [
+  "./cadavreExquis/CULTURE.png",
+  "./cadavreExquis/HANDS.png",
+  "./cadavreExquis/NATURE.png",
+  "./cadavreExquis/BUILT ENVIRONMENT.png",
+]
+
+
 document.querySelector("#app").innerHTML = `
   <main id="container">
     <section id="heading">
@@ -25,19 +33,19 @@ document.querySelector("#app").innerHTML = `
 
     <section id="projects">
       <div id="project-row">
-      Model 1
+      Cadavre Exquis
         <div class="three-model">
           <div id="model1"></div>
         </div>
         <div id="images-description">
           <div id="images">
-            ${cubes
+            ${cadavre
               .map(
-                (cube, index) => `<img src="${cube}" alt="cube${index + 1}" />`
+                (cadavre, index) => `<img src="${cadavre}" alt="cadavre${index + 1}" />`
               )
               .join("")}
           </div>
-          <h4 id="description">A cubic 3D model is a geometric representation of a cube, consisting of six equal square faces joined at right angles. Each edge of the cube is of equal length, forming a symmetrical, rigid structure. The model can be textured, colored, or transparent, and it may include variations such as beveled edges or hollow interiors, depending on its intended purpose in design, animation, or engineering.</h4>
+          <h4 id="description">People are the essence of the built environment. We collectively design spaces for ourselves and for each other. These spaces, in turn, shape how we live, interact, and grow as communities. It is a dynamic canvas where culture, function, and human experience intersect, creating opportunities for connection and shared meaning. Without art and without culture, cities are empty, soulless husks of concrete. It is our duty as inhabitants to blend together our different passions, cultures, and influences to make our space our home.</h4>
         </div>
       </div>
 
